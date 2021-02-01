@@ -7,7 +7,7 @@ function readyOn() {
   //append DOM to include items in people array
   for (let i = 0; i < people.length; i++) {
     $('body').append(`
-      <div>
+      <div class="person">
         <img src="https://github.com/${people[i].githubUsername}.png?size=250" alt="Profile image of ${people[i].name}">
       </div>
     `);

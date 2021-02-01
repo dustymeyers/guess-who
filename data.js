@@ -1,7 +1,7 @@
 var people = [
   {
-    name: 'Dusty',
-    githubUsername: 'dustymeyers',
+    name: 'Dev',
+    githubUsername: 'devjanaprime',
   },
   {
     name: 'Dane',
@@ -26,5 +26,9 @@ var people = [
   {
     name: 'Chris',
     githubUsername: 'christopher-black',
+  },
+  {
+    name: 'Dusty',
+    githubUsername: 'dustymeyers',
   },
 ];

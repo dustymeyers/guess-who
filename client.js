@@ -11,4 +11,10 @@ function readyOn() {
       </div>
     `);
   }
+  let randomPersonIndex = randomNumber(0, people.length);
+  console.log(people[randomPersonIndex].name);
+}
+
+function randomNumber(min, max) {
+  return Math.floor(Math.random() * (1 + max - min) + min);
 }
